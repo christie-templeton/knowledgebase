@@ -2,7 +2,7 @@ baseURL = "/"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "DocSite"
+title = "knowledgebase"
 theme = "docdock"
 #themesdir = "../.."
 pygmentsCodeFences = true
