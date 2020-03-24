@@ -1,0 +1,13 @@
+---
+applications:
+- name: docs
+  path: ./_site/
+  memory: 128M
+  buildpack: staticfile_buildpack
+  disk_quota: 512M
+  instances: 2
+  domain: mendix.com
+  host: docs
+  stack: cflinuxfs3
+  env:
+    FORCE_HTTPS: true
