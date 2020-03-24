@@ -722,7 +722,9 @@
         .site-logo img {
           display: none; } }
     .site-logo .site-logo__title {
-      display: none; }
+      display: none; 
+      color:#fff
+    }
   
   .site-footer {
     background: #f4f5f5;

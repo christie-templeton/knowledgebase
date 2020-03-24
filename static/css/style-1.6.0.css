@@ -701,7 +701,13 @@
     text-align: center;
     font-size: 26px;
     font-weight: normal; }
-  
+
+
+    .logo-white { 
+      filter: sepia(100%);    
+      -webkit-filter: #ffffff (100%);
+      } 
+
   .site-logo {
     margin: 0 32px 0 0; }
     .site-logo a {
