@@ -6,7 +6,7 @@
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="revised" content="2020-03-24T11:03:49 CDT">
-<title>Configuration :: knowledgebase</title>
+<title> :: knowledgebase</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
 <link href="/css/nucleus.css" rel="stylesheet">
@@ -23,7 +23,7 @@
 
     
   </head>
-  <body data-url="/getting-start/configuration/">
+  <body data-url="/account/howtoaccount/">
     
       <header>
   <div class="logo">
@@ -70,7 +70,7 @@
             <i class="fa fa-fw fa-home"></i>
           </a>
           </li>
-    <li data-nav-id="/getting-start/" class="dd-item parent alwaysopen haschildren
+    <li data-nav-id="/getting-start/" class="dd-item alwaysopen haschildren
         ">
       <div>
       <a href="/getting-start/">Getting started</a>
@@ -84,7 +84,7 @@
           </a><i class="fa fa-circle-thin read-icon"></i>
         </div>
     </li>
-      <li data-nav-id="/getting-start/configuration/" class="dd-item active">
+      <li data-nav-id="/getting-start/configuration/" class="dd-item">
         <div>
           <a href="/getting-start/configuration/">
             Configuration
@@ -93,13 +93,14 @@
     </li>
         </ul>
     </li>
-    <li data-nav-id="/account/" class="dd-item haschildren
+    <li data-nav-id="/account/" class="dd-item parent haschildren
         ">
       <div>
-      <a href="/account/"></a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      <a href="/account/"></a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
       </div>
         <ul>
-      <li data-nav-id="/account/howtoaccount/" class="dd-item">
+      <li data-nav-id="/account/howtoaccount/" class="dd-item active">
         <div>
           <a href="/account/howtoaccount/">
             
@@ -126,10 +127,12 @@
     <option value="/getting-start/" >
    Getting started</option> 
       <option value="/getting-start/installation/" >- Installation</option>
-      <option value="/getting-start/configuration/"  selected>- Configuration</option>
+      <option value="/getting-start/configuration/" >- Configuration</option>
   
     <option value="/account/" >
-   </option>
+   </option> 
+      <option value="/account/howtoaccount/"  selected>- </option>
+  
 
 
 
@@ -162,38 +165,18 @@
       <p class="c"></p>
     
 
-    <h1>Configuration</h1>
+    <h1></h1>
     
     
     
-    <p>When building the website, you can set a theme by using <code>--theme</code> option. We suggest you to edit your configuration file and set the theme by default. Example with <code>config.toml</code> format.</p>
-<p>Import sample config from sample site to Hugo root:</p>
-<pre><code>$ cp themes/docdock/exampleSite/config.toml .
-</code></pre><p>Change following <code>config.toml</code> line as needed, depending on method above:</p>
-<pre><code>theme = &quot;&lt;hugo-theme-docdock-dir-name&gt;&quot;
-</code></pre><p>Comment out following line, so default <code>themes/</code> will be used:</p>
-<pre><code># themesdir = &quot;../..&quot;
-</code></pre><h2 id="activate-search">Activate search</h2>
-<p>If not already present, add the follow lines to the <code>config.toml</code> file.</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#111">[</span><span style="color:#75af00">outputs</span><span style="color:#111">]</span>
-<span style="color:#75af00">home</span> <span style="color:#111">=</span> <span style="color:#111">[</span> <span style="color:#d88200">&#34;HTML&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;RSS&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;JSON&#34;</span><span style="color:#111">]</span>
-</code></pre></div><p>LUNRJS search index file will be generated on content changes.</p>
-<h4 id="bonus">(Bonus)</h4>
-<p>Create empty file <code>.gitkeep</code> inside <code>public/</code> and add following to <code>.gitignore</code>.  This way it will keep repo smaller and won&rsquo;t bring build result files and errors to remote checkout places:</p>
-<pre><code>/public/*
-!/public/.gitkeep
-</code></pre><h3 id="preview-site">Preview site</h3>
-<pre><code>$ hugo server
-</code></pre><p>to browse site on http://localhost:1313</p>
-<h2 id="your-websites-content">Your website&rsquo;s content</h2>
-<p>Find out how to <a href="">create</a> and <a href="">organize your content</a> quickly and intuitively.</p>
+    how to create an account
 
     
     
         <div class="chevrons">
     <div id="navigation">
-<a class="nav nav-prev" href="/getting-start/installation/" title="Installation"> <i class="fa fa-chevron-left"></i><label>Installation</label></a>
-    <a class="nav nav-next" href="/account/" title="" style="margin-right: 0px;"><label></label><i class="fa fa-chevron-right"></i></a></div>
+<a class="nav nav-prev" href="/account/" title=""> <i class="fa fa-chevron-left"></i><label></label></a>
+    <a class="nav nav-next" href="/getting-start/" title="Getting started" style="margin-right: 0px;"><label>Getting started</label><i class="fa fa-chevron-right"></i></a></div>
   </div>
 
   </section>
@@ -225,7 +208,7 @@
 
     
     <div class="github-link">
-      <a href="https://github.com/vjeantet/hugo-theme-docdock/edit/master/exampleSite/content/getting-start/configuration.md" target="blank">
+      <a href="https://github.com/vjeantet/hugo-theme-docdock/edit/master/exampleSite/content/account/howtoaccount.html" target="blank">
         </a>
     </div>
     

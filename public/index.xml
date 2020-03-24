@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DocSite</title>
+    <title>knowledgebase</title>
     <link>/</link>
-    <description>Recent content on DocSite</description>
+    <description>Recent content on knowledgebase</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -28,6 +28,15 @@
       
       <guid>/getting-start/configuration/</guid>
       <description>&lt;p&gt;When building the website, you can set a theme by using &lt;code&gt;--theme&lt;/code&gt; option. We suggest you to edit your configuration file and set the theme by default. Example with &lt;code&gt;config.toml&lt;/code&gt; format.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/account/howtoaccount/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/account/howtoaccount/</guid>
+      <description>how to create an account</description>
     </item>
     
   </channel>
