@@ -1,0 +1,149 @@
+{{ define "main" }}
+<!---->
+<span id="sidebar-toggle-span">
+<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fa fa-bars"></i> navigation</a>
+</span>
+{{if .Site.Home.Content }} 
+{{.Site.Home.Content}}
+{{else}}           
+	{{if eq .Site.Language.Lang "fr"}}
+		<h1>Personaliser la page d'accueil</h1>
+		<p>
+		  Le site fonctionne. Ne pas oublier de personaliser cette page avec votre propre contenu. 2 façons de faire :
+		</p>
+		<ul>
+		  <li><b>1. </b> Créer un fichier _index.md dans le dossier content</li>
+		  <li><b>2. </b> Configurer le serveur http pour rediriger automatiquement la homepage vers la page de votre choix dans le site</li>
+		</ul>
+	{{else}}
+
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+		<style>
+			* {
+			  box-sizing: border-box;
+			}
+			
+			body {
+			  font-family: Arial, Helvetica, sans-serif;
+			}
+			
+			/* Float four columns side by side */
+			.column {
+			  float: left;
+			  width: 25%;
+			  padding: 0 10px;
+			}
+			
+			/* Remove extra left and right margins, due to padding */
+			.row {margin: 0 -5px;}
+			
+			/* Clear floats after the columns */
+			.row:after {
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+			
+			/* Responsive columns */
+			@media screen and (max-width: 600px) {
+			  .column {
+				width: 100%;
+				display: block;
+				margin-bottom: 20px;
+			  }
+			}
+			
+			/* Style the counter cards */
+			.card {
+			  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+			  padding: 16px;
+			  text-align: center;
+			  background-color: #f1f1f1;
+			}
+			</style>
+
+		<div class="row">
+			<div class="column">
+			  <div class="card">
+				<i class="fas fa-cloud-upload-alt" style="font-size:48px;"></i><h3 class="cards">Cloud Computing</h3>
+		<hr class="cards"></hr>
+				<ul class="home">
+					<section class="home">
+						<li class="home"><i class="fa fa-angle-right fa-lg category-icon"></i><a href="./rc" class="highlight"><font size="3" color="#0e49c8">Overview</font></a></li>
+						<li class="home"><i class="fa fa-angle-right fa-lg category-icon"></i><a href="./rc/concepts/" class="highlight"><font size="3" color="#0e49c8">Concepts</font></a></li>
+					</section>
+					<section class="home">
+						<li class="home"><i class="fa fa-angle-right fa-lg category-icon"></i><a href="/getting-start/_index.md" class="highlight"><font size="3" color="#0e49c8">Getting Started</font></a></li>
+						<li class="home"><i class="fa fa-angle-right fa-lg category-icon"></i><a href="./rc/administration/" class="highlight"><font size="3" color="#0e49c8">Admin Guide</font></a></li>
+					</section>
+				</ul>
+				
+			  </div>
+			</div>
+		  
+			<div class="column">
+			  <div class="card">
+				<i class="fas fa-drafting-compass" style="font-size:48px;"></i>
+								<h3 class="cards">UX Design</h3>
+				<hr class="cards"></hr>
+
+				<ul class="home">
+					<section class="home">
+						<li class="home"><i class="fa fa-angle-right fa-lg category-icon"></i><a href="./rc" class="highlight"><font size="3" color="#0e49c8">Overview</font></a></li>
+						<li class="home"><i class="fa fa-angle-right fa-lg category-icon"></i><a href="./rc/concepts/" class="highlight"><font size="3" color="#0e49c8">Concepts</font></a></li>
+					</section>
+					<section class="home">
+						<li class="home"><i class="fa fa-angle-right fa-lg category-icon"></i><a href="./rc/quick-setup-redis-cloud/" class="highlight"><font size="3" color="#0e49c8">Getting Started</font></a></li>
+						<li class="home"><i class="fa fa-angle-right fa-lg category-icon"></i><a href="./rc/administration/" class="highlight"><font size="3" color="#0e49c8">Admin Guide</font></a></li>
+					</section>
+				</ul>
+			  </div>
+			</div>
+			
+			<div class="column">
+			  <div class="card">
+				<i class="fas fa-compress-alt" style="font-size:48px;"></i>
+				<h3 class="cards">APIs</h3>
+				<hr class="cards"></hr>
+
+				<ul class="home">
+					<section class="home">
+						<li class="home"><i class="fa fa-angle-right fa-lg category-icon"></i><a href="./rc" class="highlight"><font size="3" color="#0e49c8">Overview</font></a></li>
+						<li class="home"><i class="fa fa-angle-right fa-lg category-icon"></i><a href="./rc/concepts/" class="highlight"><font size="3" color="#0e49c8">Concepts</font></a></li>
+					</section>
+					<section class="home">
+						<li class="home"><i class="fa fa-angle-right fa-lg category-icon"></i><a href="./rc/quick-setup-redis-cloud/" class="highlight"><font size="3" color="#0e49c8">Getting Started</font></a></li>
+						<li class="home"><i class="fa fa-angle-right fa-lg category-icon"></i><a href="./rc/administration/" class="highlight"><font size="3" color="#0e49c8">Admin Guide</font></a></li>
+					</section>
+				</ul>
+			  </div>
+			</div>
+			
+			<div class="column">
+			  <div class="card">
+				<i class="fas fa-file-alt" style="font-size:48px;"></i>
+				<h3 class="cards">Documentation</h3>
+				<hr class="cards"></hr>
+
+				<ul class="home">
+					<section class="home">
+						<li class="home"><i class="fa fa-angle-right fa-lg category-icon"></i><a href="./rc" class="highlight"><font size="3" color="#0e49c8">Overview</font></a></li>
+						<li class="home"><i class="fa fa-angle-right fa-lg category-icon"></i><a href="./rc/concepts/" class="highlight"><font size="3" color="#0e49c8">Concepts</font></a></li>
+					</section>
+					<section class="home">
+						<li class="home"><i class="fa fa-angle-right fa-lg category-icon"></i><a href="./rc/quick-setup-redis-cloud/" class="highlight"><font size="3" color="#0e49c8">Getting Started</font></a></li>
+						<li class="home"><i class="fa fa-angle-right fa-lg category-icon"></i><a href="./rc/administration/" class="highlight"><font size="3" color="#0e49c8">Admin Guide</font></a></li>
+					</section>
+				</ul>
+			  </div>
+			</div>
+		  </div>
+
+		  <!--testing-->
+
+
+	{{end}}
+{{ end }}
+
+{{ end }}

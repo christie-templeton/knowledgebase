@@ -2,9 +2,9 @@ baseURL = "/"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "DocSite"
-theme = "docdock"
-#themesdir = "../.."
+title = "DocDock Documentation"
+theme = "hugo-theme-docdock"
+themesdir = "../.."
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
 
@@ -43,6 +43,7 @@ enableGitInfo = true
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
+# make these links to my other sample sites
 
 [[menu.shortcuts]]
 pre = "<h3>More</h3>"
