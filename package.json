@@ -9,8 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "index": "hugo convert toTOML -o ./converted && hugo-lunr -i \"converted/**\" -o static/js/index.json && rmdir /s /q \"converted\"",
-
+    "index": "hugo-lunr -i \"content/subdir/**\" -o public/my-index.json"
   },
   "keywords": [],
   "author": "",
