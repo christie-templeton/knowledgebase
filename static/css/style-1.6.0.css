@@ -704,7 +704,7 @@
 
 
     .logo-white { 
-      filter: sepia(100%);    
+      filter: #ffffff(100%);    
       -webkit-filter: #ffffff (100%);
       } 
 
