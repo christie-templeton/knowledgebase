@@ -1,0 +1,35 @@
+[
+    {
+        "uri": "/account/_index",
+        "content": "howtoaccount.html ",
+        "tags": []
+    },
+    {
+        "uri": "/account/howtoaccount",
+        "content": "how to create an account",
+        "tags": []
+    },
+    {
+        "uri": "/getting-start/_index",
+        "title": "Getting started",
+        "content": "\nRequirements\n\nDownload Hugo binary for your OS (Windows, Linux, Mac) : it’s that simple\n\n{{%children style=\"h2\" description=\"true\"%}}\n",
+        "tags": []
+    },
+    {
+        "uri": "/getting-start/configuration",
+        "title": "Configuration",
+        "content": "\nWhen building the website, you can set a theme by using --theme option. We suggest you to edit your configuration file and set the theme by default. Example with config.toml format.\n!--more--\n\nImport sample config from sample site to Hugo root:\n\n$ cp themes/docdock/exampleSite/config.toml .\n\nChange following config.toml line as needed, depending on method above:\ntheme = \"hugo-theme-docdock-dir-name\"\nComment out following line, so default themes/ will be used:\n\nthemesdir = \"../..\"\n\n{{%excerpt%}}\n Activate search\n\nIf not already present, add the follow lines to the config.toml file.\n\n[outputs]\nhome = [ \"HTML\", \"RSS\", \"JSON\"]\n{{% /excerpt%}}\n\nLUNRJS search index file will be generated on content changes.\n\n(Bonus)\nCreate empty file .gitkeep inside public/ and add following to .gitignore.  This way it will keep repo smaller and won't bring build result files and errors to remote checkout places:\n/public/*\n!/public/.gitkeep\n\n Preview site\n$ hugo server\nto browse site on http://localhost:1313\n\nYour website's content\n\nFind out how to create and organize your content quickly and intuitively.\n",
+        "tags": []
+    },
+    {
+        "uri": "/getting-start/installation",
+        "title": "Installation",
+        "content": "\n{{% alert theme=\"warning\" %}}HUGO v0.32 minimum required to use this theme{{%/alert%}}\n\nThe following steps are here to help you initialize your new website. If you don’t know Hugo at all, we strongly suggest you to train by following this great documentation for beginners.\n!--more--\n\nInstallation\n\nWe assume that all changes to Hugo content and customizations are going to be tracked by git (GitHub, Bitbucket etc.). Develop locally, build on remote system.\n\nBefore start real work:\n\nInitialize Hugo\nInstall DocDock theme\nConfigure DocDock and Hugo\n\n Prepare empty Hugo site\n\nCreate empty directory, which will be root of your Hugo project. Navigate there and let Hugo to create minimal required directory structure:\n$ hugo new site .\nAFTER that, initialize this as git directory where to track further changes\n$ git init\n\nNext, there are at least three ways to install DocDock (first recommended):\n\nAs git submodule\nAs git clone\nAs direct copy (from ZIP)\n\nNavigate to your themes folder in your Hugo site and use perform one of following scenarios.\n\n1. Install DocDock as git submodule\n\nDocDock will be added like a dependency repo to original project. When using CI tools like Netlify, Jenkins etc., submodule method is required, or you will get theme not found issues. Same applies when building site on remote server trough SSH.\n\nIf submodule is no-go, use 3rd option.\n\nOn your root of Hugo execute:\n\n$ git submodule add https://github.com/vjeantet/hugo-theme-docdock.git themes/docdock\nNext initialize submodule for parent git repo:\n\n$ git submodule init\n$ git submodule update\n\nNow you are ready to add content and customize looks. Do not change any file inside theme directory.\n\nIf you want to freeze changes to DocDock theme itself and use still submodules, fork private copy of DocDock and use that as submodule. When you are ready to update theme, just pull changes from origin to your private fork.\n\n 2. Install DocDock simply as git clone\n\nThis method results that files are checked out locally, but won't be visible from parent git repo. Probably you will build site locally with hugo command and use result from public/ on your own.\n\n$ git clone https://github.com/vjeantet/hugo-theme-docdock.git themes/docdock\n\n3. Install DocDock from ZIP\n\nAll files from theme will be tracked inside parent repo, to update it, have to override files in theme. {{%icon download%}} download following zip and extract inside themes/.\n\nhttps://github.com/vjeantet/hugo-theme-docdock/archive/master.zip\nName of theme in next step will be hugo-theme-docdock-master, can rename as you wish.\n\n Configuration\n\nFollow instructions here\n",
+        "tags": []
+    },
+    {
+        "uri": "/search",
+        "content": "\r\n    \r\n    \r\n      Search\r\n    \r\n  \r\n  \r\n  \r\n  \r\n  \r\n\r\n\r\n\r\n",
+        "tags": []
+    }
+]
