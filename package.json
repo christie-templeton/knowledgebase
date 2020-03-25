@@ -1,0 +1,18 @@
+{
+  "name": "knowledgebase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "hugo-lunr": "^0.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "index": "hugo convert toTOML -o ./converted && hugo-lunr -i \"converted/**\" -o static/js/index.json && rmdir /s /q \"converted\"",
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

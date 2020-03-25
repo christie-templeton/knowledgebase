@@ -5,7 +5,7 @@ header {
   -ms-flex-align: center;
   align-items: center;
   background-color: #b62411;
-  background: url(./img/bg-poly-slate-1.jpg);
+ /* background: url(./img/bg-poly-slate-1.jpg); */
   background-position-x: right;
   background-size: cover;
   color: #fff;
