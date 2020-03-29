@@ -1,0 +1,15 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sourceRoot": "/Users/mac/documents/christie",
+	"sources": [
+		"themes/docdock/assets/sass/main.sass",
+		"../../documents/christie/themes/docdock/assets/sass/_search.sass"
+	],
+	"sourcesContent": [
+		"@import \"search\";\n",
+		"::placeholder {\n  font-size: 1rem !important;\n  color: inherit !important; }\n\n.search {\n  flex: 1;\n  display: flex;\n  justify-content: flex-end;\n  position: relative;\n  width: 80%;\n  margin-left: auto;\n  margin-right: auto;\n  &_field {\n    padding: 0.5rem 1rem !important;\n    // border-radius: 1.5rem\n    // width: 13.5rem\n    // outline: none\n    // border: none\n    // box-shadow: 0 1rem 4rem rgba(0,0,0,0.17)\n    font-size: 1rem;\n    border: 1px solid #cccccc;\n    color: #555555;\n    display: inline-block;\n    // font-size: 14px\n    line-height: 20px;\n    // padding-bottom: 6px\n    // padding-left: 12px\n    // padding-right: 12px\n }    // padding-top: 6px\n  &_label {\n    background-image: url(/images/search.svg);\n    width: 1.25rem;\n    height: 1.25rem;\n    position: absolute;\n    right: 1.5rem;\n    top: 0.5rem;\n    opacity: 0.33; }\n  &_result {\n    padding: 0.5rem 1rem;\n    color: #555555 !important;\n    text-align: left;\n    position: relative;\n    z-index: 999;\n    &:hover {\n      background-color: #eee; }\n    &s {\n      width: 13.5rem;\n      background-color: #f9f9f9;\n      border-radius: 0 0 0.25rem 0.25rem;\n      box-shadow: 0 1rem 4rem rgba(0,0,0,0.17);\n      position: absolute;\n      top: 100%;\n      left: 0;\n      width: 100%;\n      display: grid;\n      overflow: hidden;\n      &:empty {\n        display: none; } } } }\n"
+	],
+	"names": [],
+	"mappings": "ECAE,AAAF,WAAa,AAAC,CACZ,SAAS,CAAE,eAAe,CAC1B,KAAK,CAAE,kBAAkB,CAAG,AAE9B,AAAA,OAAO,AAAC,CACN,IAAI,CAAE,CAAC,CACP,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,QAAQ,CACzB,QAAQ,CAAE,QAAQ,CAClB,KAAK,CAAE,GAAG,CACV,WAAW,CAAE,IAAI,CACjB,YAAY,CAAE,IAAI,CA8CU,AArD9B,AAQE,aARK,AAQG,CACN,OAAO,CAAE,sBAAsB,CAM/B,SAAS,CAAE,IAAI,CACf,MAAM,CAAE,iBAAiB,CACzB,KAAK,CAAE,OAAO,CACd,OAAO,CAAE,YAAY,CAErB,WAAW,CAAE,IAAI,CAInB,AAxBF,AAyBE,aAzBK,AAyBG,CACN,gBAAgB,CAAE,uBAAuB,CACzC,KAAK,CAAE,OAAO,CACd,MAAM,CAAE,OAAO,CACf,QAAQ,CAAE,QAAQ,CAClB,KAAK,CAAE,MAAM,CACb,GAAG,CAAE,MAAM,CACX,OAAO,CAAE,IAAI,CAAG,AAhCpB,AAiCE,cAjCK,AAiCI,CACP,OAAO,CAAE,WAAW,CACpB,KAAK,CAAE,kBAAkB,CACzB,UAAU,CAAE,IAAI,CAChB,QAAQ,CAAE,QAAQ,CAClB,OAAO,CAAE,GAAG,CAeY,AArD5B,AAuCI,cAvCG,CAuCD,KAAK,AAAC,CACN,gBAAgB,CAAE,IAAI,CAAG,AAxC/B,AAyCI,eAzCG,AAyCA,CACD,KAAK,CAAE,OAAO,CACd,gBAAgB,CAAE,OAAO,CACzB,aAAa,CAAE,mBAAmB,CAClC,UAAU,CAAE,CAAC,CAAC,IAAI,CAAC,IAAI,CAAC,gBAAgB,CACxC,QAAQ,CAAE,QAAQ,CAClB,GAAG,CAAE,IAAI,CACT,IAAI,CAAE,CAAC,CACP,KAAK,CAAE,IAAI,CACX,OAAO,CAAE,IAAI,CACb,QAAQ,CAAE,MAAM,CAEI,AArD1B,AAoDM,eApDC,CAoDC,KAAK,AAAC,CACN,OAAO,CAAE,IAAI,CAAG"
+}
