@@ -56,9 +56,9 @@
 
 </section>
 
-
     {{- if not .Site.Params.disableSearch}}
-      <div>
+    {{ partial "search" . }}
+      <!-- <div>
         <div class="searchbox">
           <input data-search-input id="search-by" type="text" placeholder="{{T "Search-placeholder"}}">
         </div>
@@ -76,7 +76,7 @@
       </div>
 
       <!--whitespace-->
-      <p class="c"></p>
+      <!-- <p class="c"></p> -->
     {{- end}}
     
 
