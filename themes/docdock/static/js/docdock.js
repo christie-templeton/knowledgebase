@@ -99,7 +99,7 @@ function fallbackMessage(action) {
 }
 
 jQuery(document).ready(function() {
-
+    var baseurl = "";
     baseurl = baseurl.endsWith('/')?baseurl:baseurl+'/';
 
     jQuery('#sidebar .category-icon').on('click', function() {
