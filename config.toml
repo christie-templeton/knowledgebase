@@ -25,13 +25,11 @@ enableMissingTranslationPlaceholders = false
 # languageName = "Français"
 
 
-
-
 [params]
 editURL = "https://github.com/vjeantet/hugo-theme-docdock/edit/master/exampleSite/content/"
 showVisitedLinks = true # default is false
 themeStyle = "flex" # "original" or "flex" # default "flex"
-themeVariant = "" # choose theme variant "green", "gold" , "gray", "blue" (default)
+themeVariant = "gold" # choose theme variant "green", "gold" , "gray", "blue" (default)
 ordersectionsby = "weight" # ordersectionsby = "title"
 disableHomeIcon = false # default is false
 disableSearch = false # default is false
