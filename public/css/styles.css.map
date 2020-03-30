@@ -1,10 +1,10 @@
 {
 	"version": 3,
 	"file": "styles.css",
-	"sourceRoot": "/Users/mac/documents/christie",
+	"sourceRoot": "C:/Hugo/sites/knowledgebase",
 	"sources": [
 		"themes/docdock/assets/sass/main.sass",
-		"../../documents/christie/themes/docdock/assets/sass/_search.sass"
+		"themes/docdock/assets/sass/_search.sass"
 	],
 	"sourcesContent": [
 		"@import \"search\";\n",

@@ -1,5 +1,6 @@
 {
     "favorites.resources": [
-        "static\\index.html"
+        "static\\index.html",
+        "themes\\docdock\\layouts\\index.html"
     ]
 }

@@ -21,6 +21,13 @@
 	"content": "When building the website, you can set a theme by using --theme option. We suggest you to edit your configuration file and set the theme by default. Example with config.toml format.\nImport sample config from sample site to Hugo root:\n$ cp themes/docdock/exampleSite/config.toml . Change following config.toml line as needed, depending on method above:\ntheme = \u0026quot;\u0026lt;hugo-theme-docdock-dir-name\u0026gt;\u0026quot; Comment out following line, so default themes/ will be used:\n# themesdir = \u0026quot;../..\u0026quot; Activate search If not already present, add the follow lines to the config.toml file.\n[outputs] home = [ \u0026#34;HTML\u0026#34;, \u0026#34;RSS\u0026#34;, \u0026#34;JSON\u0026#34;] LUNRJS search index file will be generated on content changes.\n(Bonus) Create empty file .gitkeep inside public/ and add following to .gitignore. This way it will keep repo smaller and won\u0026rsquo;t bring build result files and errors to remote checkout places:\n/public/* !/public/.gitkeep Preview site $ hugo server to browse site on http://localhost:1313\nYour website\u0026rsquo;s content Find out how to create and organize your content quickly and intuitively.\n"
 },
 {
+	"uri": "/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "/account/",
 	"title": "",
 	"tags": [],
@@ -37,13 +44,6 @@
 {
 	"uri": "/categories/",
 	"title": "Categories",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "/",
-	"title": "knowledgebase",
 	"tags": [],
 	"description": "",
 	"content": ""
