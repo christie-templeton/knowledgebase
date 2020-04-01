@@ -30,28 +30,42 @@ header {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #2ea101;
+  background-color: #f8aa00;
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 3.5rem;
+  height: 6.3rem;
   left: 0;
   line-height: 3.5rem;
   margin-bottom: .35rem;
-  padding: 0 2rem;
+  padding: 0 37.3rem;
   position: fixed;
   right: 0;
   top: 0;
   z-index: 100; }
-  header:after {
-    background: url(ribbon.png) 0 0/100% no-repeat;
+
+header .subheader {
+    background-color: #2ea101;
     content: '';
-    height: .35rem;
+    height: 5rem;
+    left: 0;
+    position: absolute;
+    padding-top: 1.3em;
+    right: 0;
+    top: 100%; }
+
+ /* header:after {
+    background-color: #2ea101;
+    background: url(ribbon.png) 0 0/100% no-repeat; 
+    content: '';
+    height: 5rem;
     left: 0;
     position: absolute;
     right: 0;
-    top: 100%; }
+    top: 100%; } */
+
+
   header a {
     text-decoration: none; }
   header .logo {
@@ -92,9 +106,63 @@ header {
       header nav.shortcuts li a label {
         margin-bottom: 0rem; }
 
+
+
+  .hkb-site-search {
+    position: relative;
+    max-width: 600px;
+    margin: 0 10em; }
+    .hkb-site-search::after {
+      position: absolute;
+      display: block;
+      content: '';
+    /*  background: url("/wp-content/themes/knowall/img/search.svg") no-repeat center center; */
+      background-size: 20px;
+      height: 20px;
+      width: 20px;
+      top: 50%;
+      left: 15px;
+      margin-top: -10px;
+      opacity: .7; }
+    @media print {
+      .hkb-site-search {
+        display: none; } }
+    .hkb-site-search .hkb-site-search__field {
+      -webkit-border-radius: 99px;
+      -moz-border-radius: 99px;
+      -ms-border-radius: 99px;
+      border-radius: 99px;
+      display: block;
+      width: 100%;
+      padding: 18px 20px 18px 45px;
+      border: 0;
+      outline: none;
+      box-shadow: 0 0 0 5px #f8aa00; }
+      .hkb-site-search .hkb-site-search__field:focus {
+        outline: 0; }
+      .hkb-site-search .hkb-site-search__field.live-search-loading + .hkb-site-search__loader {
+        opacity: .4; }
+    .hkb-site-search .hkb-site-search__loader {
+      -moz-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      -webkit-transition: all 0.2s ease-in-out;
+      -ms-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      margin-top: -10px;
+      height: 20px;
+      width: 30px;
+      opacity: 0; }
+    .hkb-site-search .hkb-site-search__button {
+      display: none; }
+
+
+
 article > aside {
   background-color: #f9f9f9;
-  bottom: 0;
+  bottom: 4rem;
   box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -106,7 +174,8 @@ article > aside {
   left: 0;
   padding: 2rem 0rem 1rem 0rem;
   position: fixed;
-  top: 0rem;
+  top: 10rem;
+  left: 25rem;
   width: 20rem;
   overflow-y: auto; }
   article > aside .menu {
@@ -121,11 +190,11 @@ article > aside {
     article > aside .menu ul {
       display: none; }
     article > aside .menu > .dd-item {
-      margin: 0.5rem 0px 0.5rem 20px; }
+      margin: 3.5rem 0px 0.5rem 20px; }
     article > aside .menu .dd-item {
       padding-left: 1rem;
       list-style: none;
-      font-size: 13px; }
+      font-size: px; }
       article > aside .menu .dd-item.alwaysopen > ul {
         display: block; }
       article > aside .menu .dd-item.parent > ul {
@@ -296,14 +365,14 @@ article {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  margin-top: 3.5rem; }
+  margin-top: 11.2rem; }
 
 article section.page {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
   box-sizing: border-box;
-  margin: 0 1rem 0 20rem;
+  margin: 0 22rem 0 43rem;
   overflow-y: auto;
   padding: 2rem 4rem; }
   article section.page h1:first-of-type {
@@ -553,9 +622,9 @@ h6:hover .anchor {
   border-right-color: rgba(0, 0, 0, 0.8); }
 
 footer {
-  color: #aaa;
+  color: #fff;
   font-size: .95rem;
-  margin: 0 1rem 0 20rem;
+  margin: 0 1rem 0 0rem;
   padding: 1rem 4rem; }
   footer p {
     margin: 0px; }

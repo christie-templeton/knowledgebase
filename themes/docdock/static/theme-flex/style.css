@@ -116,7 +116,7 @@ header .subheader {
       position: absolute;
       display: block;
       content: '';
-    /*  background: url("/wp-content/themes/knowall/img/search.svg") no-repeat center center; */
+      background: url("/search.svg") no-repeat center center; 
       background-size: 20px;
       height: 20px;
       width: 20px;
