@@ -1,6 +1,7 @@
 {
     "favorites.resources": [
         "static\\index.html",
-        "themes\\docdock\\layouts\\index.html"
+        "themes\\docdock\\layouts\\index.html",
+        "themes\\docdock\\static\\theme-flex\\style.css"
     ]
 }

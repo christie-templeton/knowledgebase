@@ -1,9 +1,13 @@
+<link rel="stylesheet" type="text/css" href="css/style-1.6.0.css">
 <header>
   <div class="logo">
     {{ partial "header.html" . }}
   </div>
   <div class="burger"><a href="javascript:void(0);" style="font-size:15px;">&#9776;</a></div>
+  
   {{- with .Site.Menus.shortcuts}}
+  
+  <!--
     <nav class="shortcuts">
         {{- range sort . "Weight"}}
             <li class="" role="">
@@ -12,7 +16,30 @@
                 </a>
             </li>
         {{- end}}
-    </nav>
+
+       
+
+    </nav>-->
+
+   
+    </form>
+    <div class="subheader">
+
+      <form class="hkb-site-search search" method="get" action="http://knowledgebase.christietempleton.pro/">
+        <label class="hkb-screen-reader-text search_label" for="search-by">Search For</label>
+        <input class="hkb-site-search__field search_field" type="text" value="" placeholder="Search the knowledge base..." name="s" autocomplete="off" data-search-input id="search-by">
+        <div class="search_results"></div>
+        <img class="hkb-site-search__loader lazyloading" src="/loading.svg" alt="Searching..." data-was-processed="true">
+        <input type="hidden" name="ht-kb-search" value="1">
+        <input type="hidden" name="lang" value="">
+       <!-- <button class="hkb-site-search__button" type="submit">
+          <span>Search</span>
+        </button>-->
+      </form>
+
+      
+    </div>
+
   {{- end}}
 </header>
 
@@ -20,7 +47,12 @@
 
   
   <aside>
+
+  
+
     <ul class="menu">
+
+      
       {{- if not .Site.Params.disableHomeIcon}}
           <li data-nav-id="{{"/" | relLangURL}}" class="dd-item">
           <a href="{{"/" | relLangURL}}">
@@ -54,7 +86,7 @@
   <h1>HelpLab<span class="anchor" data-clipboard-text="https://docs.redislabs.com/latest/index.html#"></span></h3>
   <h4 class="home"><center>A Sample Documentation Support Site by <a href="http://christietempleton.pro">Christie Templeton</a></center></h4>
 
-</section>-->
+</section>
 
     {{- if not .Site.Params.disableSearch}}
     {{ partial "search" . }}
@@ -76,8 +108,8 @@
       </div>
 
       <!--whitespace-->
-      <!-- <p class="c"></p> -->
+      <!-- <p class="c"></p> 
     {{- end}}
-    
+    -->
 
     {{if not .IsHome}}<h1>{{.Title}}</h1>{{end}}
