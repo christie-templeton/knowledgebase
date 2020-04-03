@@ -1,15 +1,15 @@
 +++
-title = "How to Create an Account"
+title = "Can I pay with Bitcoin?"
 description = ""
-weight = 2
+weight = 1
 alwaysopen = true
 +++
 
-# How to Create an Account    
+# Can I pay with Bitcoin?   
 
 This is an example article. It is intended to demonstrate some of the key styling elements for KnowledgeBase, the knowledge base static website sample by [Christie Templeton](https://christietempleton.pro).
 
-
+<!--more-->
 ## Why choose KnowledgeBase?
 
 KnowledgeBase is a Hugo theme customized by [Christie Templeton](https://christietempleton.pro), which is based off of the [Porting Grav Learn](https://hugothemesfree.com/porting-grav-learn-theme-to-hugo/) theme and the [Knowall](https://demo.herothemes.com/knowall/) Wordpress theme. This site serves as a help center for your product or service. It organises your content into a knowledge base where customers, employees, and vendors can access support articles 24/7, be that documentation, FAQs, videos, LMS training, or tutorials. By implimenting a static html knowledgebase you can:

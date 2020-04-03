@@ -10,5 +10,65 @@
 	<atom:link href="/legal/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Sample Knowledge Page</title>
+      <link>/legal/sample_1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/legal/sample_1/</guid>
+      <description>Sample Knowledge Page This is an example article. It is intended to demonstrate some of the key styling elements for KnowledgeBase, the knowledge base static website sample by Christie Templeton.
+Why choose KnowledgeBase? KnowledgeBase is a Hugo theme customized by Christie Templeton, which is based off of the Porting Grav Learn theme and the Knowall Wordpress theme. This site serves as a help center for your product or service. It organises your content into a knowledge base where customers, employees, and vendors can access support articles 24/7, be that documentation, FAQs, videos, LMS training, or tutorials.</description>
+    </item>
+    
+    <item>
+      <title>Sample Knowledge Page</title>
+      <link>/legal/sample_2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/legal/sample_2/</guid>
+      <description>Sample Knowledge Page This is an example article. It is intended to demonstrate some of the key styling elements for KnowledgeBase, the knowledge base static website sample by Christie Templeton.
+Why choose KnowledgeBase? KnowledgeBase is a Hugo theme customized by Christie Templeton, which is based off of the Porting Grav Learn theme and the Knowall Wordpress theme. This site serves as a help center for your product or service. It organises your content into a knowledge base where customers, employees, and vendors can access support articles 24/7, be that documentation, FAQs, videos, LMS training, or tutorials.</description>
+    </item>
+    
+    <item>
+      <title>Sample Knowledge Page</title>
+      <link>/legal/sample_3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/legal/sample_3/</guid>
+      <description>Sample Knowledge Page This is an example article. It is intended to demonstrate some of the key styling elements for KnowledgeBase, the knowledge base static website sample by Christie Templeton.
+Why choose KnowledgeBase? KnowledgeBase is a Hugo theme customized by Christie Templeton, which is based off of the Porting Grav Learn theme and the Knowall Wordpress theme. This site serves as a help center for your product or service. It organises your content into a knowledge base where customers, employees, and vendors can access support articles 24/7, be that documentation, FAQs, videos, LMS training, or tutorials.</description>
+    </item>
+    
+    <item>
+      <title>Sample Knowledge Page</title>
+      <link>/legal/sample_4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/legal/sample_4/</guid>
+      <description>Sample Knowledge Page This is an example article. It is intended to demonstrate some of the key styling elements for KnowledgeBase, the knowledge base static website sample by Christie Templeton.
+Why choose KnowledgeBase? KnowledgeBase is a Hugo theme customized by Christie Templeton, which is based off of the Porting Grav Learn theme and the Knowall Wordpress theme. This site serves as a help center for your product or service. It organises your content into a knowledge base where customers, employees, and vendors can access support articles 24/7, be that documentation, FAQs, videos, LMS training, or tutorials.</description>
+    </item>
+    
+    <item>
+      <title>Sample Knowledge Page</title>
+      <link>/legal/sample_5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/legal/sample_5/</guid>
+      <description>Sample Knowledge Page This is an example article. It is intended to demonstrate some of the key styling elements for KnowledgeBase, the knowledge base static website sample by Christie Templeton.
+Why choose KnowledgeBase? KnowledgeBase is a Hugo theme customized by Christie Templeton, which is based off of the Porting Grav Learn theme and the Knowall Wordpress theme. This site serves as a help center for your product or service. It organises your content into a knowledge base where customers, employees, and vendors can access support articles 24/7, be that documentation, FAQs, videos, LMS training, or tutorials.</description>
+    </item>
+    
+    <item>
+      <title>Sample Knowledge Page</title>
+      <link>/legal/sample_6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/legal/sample_6/</guid>
+      <description>Sample Knowledge Page This is an example article. It is intended to demonstrate some of the key styling elements for KnowledgeBase, the knowledge base static website sample by Christie Templeton.
+Why choose KnowledgeBase? KnowledgeBase is a Hugo theme customized by Christie Templeton, which is based off of the Porting Grav Learn theme and the Knowall Wordpress theme. This site serves as a help center for your product or service. It organises your content into a knowledge base where customers, employees, and vendors can access support articles 24/7, be that documentation, FAQs, videos, LMS training, or tutorials.</description>
+    </item>
+    
   </channel>
 </rss>

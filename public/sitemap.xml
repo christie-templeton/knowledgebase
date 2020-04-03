@@ -3,11 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/account/account_security/</loc>
+  </url>
+  
+  <url>
+    <loc>/billing/bitcoin/</loc>
+  </url>
+  
+  <url>
+    <loc>/account/change_email/</loc>
+  </url>
+  
+  <url>
+    <loc>/account/edit_profile/</loc>
+  </url>
+  
+  <url>
+    <loc>/account/account_data/</loc>
+  </url>
+  
+  <url>
     <loc>/getting-start/</loc>
   </url>
   
   <url>
-    <loc>/getting-start/installation/</loc>
+    <loc>/account/close_account/</loc>
+  </url>
+  
+  <url>
+    <loc>/account/howtoaccount/</loc>
+  </url>
+  
+  <url>
+    <loc>/account/2_step_verification/</loc>
+  </url>
+  
+  <url>
+    <loc>/billing/2_step_verification/</loc>
   </url>
   
   <url>
@@ -15,15 +47,119 @@
   </url>
   
   <url>
-    <loc>/getting-start/configuration/</loc>
+    <loc>/account/username_password/</loc>
   </url>
   
   <url>
-    <loc>/account/dir1/howtoaccount/</loc>
+    <loc>/billing/sample_1/</loc>
+  </url>
+  
+  <url>
+    <loc>/billing/sample_2/</loc>
+  </url>
+  
+  <url>
+    <loc>/billing/sample_3/</loc>
+  </url>
+  
+  <url>
+    <loc>/billing/sample_4/</loc>
+  </url>
+  
+  <url>
+    <loc>/billing/sample_5/</loc>
+  </url>
+  
+  <url>
+    <loc>/billing/sample_6/</loc>
+  </url>
+  
+  <url>
+    <loc>/developers/sample_1/</loc>
+  </url>
+  
+  <url>
+    <loc>/developers/sample_2/</loc>
+  </url>
+  
+  <url>
+    <loc>/developers/sample_3/</loc>
+  </url>
+  
+  <url>
+    <loc>/developers/sample_4/</loc>
+  </url>
+  
+  <url>
+    <loc>/developers/sample_5/</loc>
+  </url>
+  
+  <url>
+    <loc>/developers/sample_6/</loc>
+  </url>
+  
+  <url>
+    <loc>/legal/sample_1/</loc>
+  </url>
+  
+  <url>
+    <loc>/legal/sample_2/</loc>
+  </url>
+  
+  <url>
+    <loc>/legal/sample_3/</loc>
+  </url>
+  
+  <url>
+    <loc>/legal/sample_4/</loc>
+  </url>
+  
+  <url>
+    <loc>/legal/sample_5/</loc>
+  </url>
+  
+  <url>
+    <loc>/legal/sample_6/</loc>
+  </url>
+  
+  <url>
+    <loc>/mobileapp/sample_1/</loc>
+  </url>
+  
+  <url>
+    <loc>/mobileapp/sample_2/</loc>
+  </url>
+  
+  <url>
+    <loc>/mobileapp/sample_3/</loc>
+  </url>
+  
+  <url>
+    <loc>/mobileapp/sample_4/</loc>
+  </url>
+  
+  <url>
+    <loc>/mobileapp/sample_5/</loc>
+  </url>
+  
+  <url>
+    <loc>/mobileapp/sample_6/</loc>
+  </url>
+  
+  <url>
+    <loc>/getting-start/samples/</loc>
   </url>
   
   <url>
     <loc>/billing/</loc>
+  </url>
+  
+  <url>
+    <loc>/getting-start/installation/</loc>
+  </url>
+  
+  <url>
+    <loc>/getting-start/configuration/</loc>
   </url>
   
   <url>
@@ -45,7 +181,6 @@
   
   <url>
     <loc>/_footer/</loc>
-    <priority>0</priority>
   </url>
   
   <url>

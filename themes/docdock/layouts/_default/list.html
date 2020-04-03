@@ -2,6 +2,8 @@
 {{if .Content}}
 {{ .Content }}
 {{else }}
+
+<!--
 {{ $paginator := .Paginator }}
 
 <div class="extra-pagination inner">
@@ -12,7 +14,9 @@
    {{ .Render "li" }}
 {{ end }}
 
-<div style="margin-bottom:2rem"></div>
+<div style="margin-bottom:2rem"></div> 
+
+-->
 
 {{ partial "pagination.html" $paginator }}
 

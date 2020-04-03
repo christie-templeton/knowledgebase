@@ -2,8 +2,5 @@
 title = "My Account"
 description = ""
 weight = 1
-alwaysopen = true
+alwaysopen = false
 +++
-
-How to manage your account and it's features.
-

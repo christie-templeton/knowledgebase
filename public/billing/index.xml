@@ -10,5 +10,85 @@
 	<atom:link href="/billing/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Can I pay with Bitcoin?</title>
+      <link>/billing/bitcoin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/billing/bitcoin/</guid>
+      <description>&lt;h1 id=&#34;can-i-pay-with-bitcoin&#34;&gt;Can I pay with Bitcoin?&lt;/h1&gt;
+&lt;p&gt;This is an example article. It is intended to demonstrate some of the key styling elements for KnowledgeBase, the knowledge base static website sample by &lt;a href=&#34;https://christietempleton.pro&#34;&gt;Christie Templeton&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to Enable Two-Step Verification</title>
+      <link>/billing/2_step_verification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/billing/2_step_verification/</guid>
+      <description>&lt;h1 id=&#34;how-to-enable-two-step-verification&#34;&gt;How to Enable Two-Step Verification&lt;/h1&gt;
+&lt;p&gt;This is an example article. It is intended to demonstrate some of the key styling elements for KnowledgeBase, the knowledge base static website sample by &lt;a href=&#34;https://christietempleton.pro&#34;&gt;Christie Templeton&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sample Knowledge Page</title>
+      <link>/billing/sample_1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/billing/sample_1/</guid>
+      <description>&lt;h1 id=&#34;sample-knowledge-page&#34;&gt;Sample Knowledge Page&lt;/h1&gt;
+&lt;p&gt;This is an example article. It is intended to demonstrate some of the key styling elements for KnowledgeBase, the knowledge base static website sample by &lt;a href=&#34;https://christietempleton.pro&#34;&gt;Christie Templeton&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sample Knowledge Page</title>
+      <link>/billing/sample_2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/billing/sample_2/</guid>
+      <description>&lt;h1 id=&#34;sample-knowledge-page&#34;&gt;Sample Knowledge Page&lt;/h1&gt;
+&lt;p&gt;This is an example article. It is intended to demonstrate some of the key styling elements for KnowledgeBase, the knowledge base static website sample by &lt;a href=&#34;https://christietempleton.pro&#34;&gt;Christie Templeton&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sample Knowledge Page</title>
+      <link>/billing/sample_3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/billing/sample_3/</guid>
+      <description>&lt;h1 id=&#34;sample-knowledge-page&#34;&gt;Sample Knowledge Page&lt;/h1&gt;
+&lt;p&gt;This is an example article. It is intended to demonstrate some of the key styling elements for KnowledgeBase, the knowledge base static website sample by &lt;a href=&#34;https://christietempleton.pro&#34;&gt;Christie Templeton&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sample Knowledge Page</title>
+      <link>/billing/sample_4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/billing/sample_4/</guid>
+      <description>&lt;h1 id=&#34;sample-knowledge-page&#34;&gt;Sample Knowledge Page&lt;/h1&gt;
+&lt;p&gt;This is an example article. It is intended to demonstrate some of the key styling elements for KnowledgeBase, the knowledge base static website sample by &lt;a href=&#34;https://christietempleton.pro&#34;&gt;Christie Templeton&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sample Knowledge Page</title>
+      <link>/billing/sample_5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/billing/sample_5/</guid>
+      <description>&lt;h1 id=&#34;sample-knowledge-page&#34;&gt;Sample Knowledge Page&lt;/h1&gt;
+&lt;p&gt;This is an example article. It is intended to demonstrate some of the key styling elements for KnowledgeBase, the knowledge base static website sample by &lt;a href=&#34;https://christietempleton.pro&#34;&gt;Christie Templeton&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sample Knowledge Page</title>
+      <link>/billing/sample_6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/billing/sample_6/</guid>
+      <description>&lt;h1 id=&#34;sample-knowledge-page&#34;&gt;Sample Knowledge Page&lt;/h1&gt;
+&lt;p&gt;This is an example article. It is intended to demonstrate some of the key styling elements for KnowledgeBase, the knowledge base static website sample by &lt;a href=&#34;https://christietempleton.pro&#34;&gt;Christie Templeton&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

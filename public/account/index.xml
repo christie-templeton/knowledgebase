@@ -11,13 +11,83 @@
     
     
     <item>
-      <title>How to Create an Account</title>
-      <link>/account/dir1/howtoaccount/</link>
+      <title>Account Security Best Practices</title>
+      <link>/account/account_security/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/account/dir1/howtoaccount/</guid>
-      <description>How to Create an Account This is an example article. It is intended to demonstrate some of the key styling elements for KnowledgeBase, the knowledge base static website sample by Christie Templeton.
-Why choose KnowledgeBase? KnowledgeBase is a Hugo theme customized by Christie Templeton, which is based off of the Porting Grav Learn theme and the Knowall Wordpress theme. This site serves as a help center for your product or service.</description>
+      <guid>/account/account_security/</guid>
+      <description>&lt;h1 id=&#34;account-security-best-practices&#34;&gt;Account Security Best Practices&lt;/h1&gt;
+&lt;p&gt;This is an example article. It is intended to demonstrate some of the key styling elements for KnowledgeBase, the knowledge base static website sample by &lt;a href=&#34;https://christietempleton.pro&#34;&gt;Christie Templeton&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Change Your Account Email Address</title>
+      <link>/account/change_email/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/account/change_email/</guid>
+      <description>&lt;h1 id=&#34;change-your-email-account&#34;&gt;Change Your Email Account&lt;/h1&gt;
+&lt;p&gt;This is an example article. It is intended to demonstrate some of the key styling elements for KnowledgeBase, the knowledge base static website sample by &lt;a href=&#34;https://christietempleton.pro&#34;&gt;Christie Templeton&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Edit Your Profile</title>
+      <link>/account/edit_profile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/account/edit_profile/</guid>
+      <description>&lt;h1 id=&#34;edit-your-profile&#34;&gt;Edit Your Profile&lt;/h1&gt;
+&lt;p&gt;This is an example article. It is intended to demonstrate some of the key styling elements for KnowledgeBase, the knowledge base static website sample by &lt;a href=&#34;https://christietempleton.pro&#34;&gt;Christie Templeton&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Export and Back Up Account Data</title>
+      <link>/account/account_data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/account/account_data/</guid>
+      <description>&lt;h1 id=&#34;export-and-back-up-account-data&#34;&gt;Export and Back Up Account Data&lt;/h1&gt;
+&lt;p&gt;This is an example article. It is intended to demonstrate some of the key styling elements for KnowledgeBase, the knowledge base static website sample by &lt;a href=&#34;https://christietempleton.pro&#34;&gt;Christie Templeton&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to Close Your Account</title>
+      <link>/account/close_account/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/account/close_account/</guid>
+      <description>&lt;h1 id=&#34;how-to-close-your-account&#34;&gt;How to Close Your Account&lt;/h1&gt;
+&lt;p&gt;This is an example article. It is intended to demonstrate some of the key styling elements for KnowledgeBase, the knowledge base static website sample by &lt;a href=&#34;https://christietempleton.pro&#34;&gt;Christie Templeton&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to Create an Account</title>
+      <link>/account/howtoaccount/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/account/howtoaccount/</guid>
+      <description>&lt;h1 id=&#34;how-to-create-an-account&#34;&gt;How to Create an Account&lt;/h1&gt;
+&lt;p&gt;This is an example article. It is intended to demonstrate some of the key styling elements for KnowledgeBase, the knowledge base static website sample by &lt;a href=&#34;https://christietempleton.pro&#34;&gt;Christie Templeton&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to Enable Two-Step Verification</title>
+      <link>/account/2_step_verification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/account/2_step_verification/</guid>
+      <description>&lt;h1 id=&#34;how-to-enable-two-step-verification&#34;&gt;How to Enable Two-Step Verification&lt;/h1&gt;
+&lt;p&gt;This is an example article. It is intended to demonstrate some of the key styling elements for KnowledgeBase, the knowledge base static website sample by &lt;a href=&#34;https://christietempleton.pro&#34;&gt;Christie Templeton&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Recover Your Username or Password</title>
+      <link>/account/username_password/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/account/username_password/</guid>
+      <description>&lt;h1 id=&#34;recover-your-username-or-password&#34;&gt;Recover Your Username or Password&lt;/h1&gt;
+&lt;p&gt;This is an example article. It is intended to demonstrate some of the key styling elements for KnowledgeBase, the knowledge base static website sample by &lt;a href=&#34;https://christietempleton.pro&#34;&gt;Christie Templeton&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>

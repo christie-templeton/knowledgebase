@@ -11,14 +11,23 @@
     
     
     <item>
+      <title>Sample Documentation</title>
+      <link>/getting-start/samples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/getting-start/samples/</guid>
+      <description>&lt;h1 id=&#34;sample-documentation&#34;&gt;Sample Documentation&lt;/h1&gt;
+&lt;p&gt;If you are looking for sample documents from Christie Templeton&amp;rsquo;s portfolio, then you&amp;rsquo;ve found the right page!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Installation</title>
       <link>/getting-start/installation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/getting-start/installation/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;role=&amp;quot;alert&amp;quot;&amp;gt;HUGO &lt;strong&gt;v0.32&lt;/strong&gt; minimum required to use this theme&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;The following steps are here to help you initialize your new website. If you don’t know Hugo at all, we strongly suggest you to train by following this &lt;a href=&#34;https://gohugo.io/overview/quickstart/&#34;&gt;great documentation for beginners&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;installation&#34;&gt;Installation&lt;/h1&gt;
+&lt;p&gt;This is an example article. It is intended to demonstrate some of the key styling elements for KnowledgeBase, the knowledge base static website sample by &lt;a href=&#34;https://christietempleton.pro&#34;&gt;Christie Templeton&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -27,7 +36,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/getting-start/configuration/</guid>
-      <description>&lt;p&gt;When building the website, you can set a theme by using &lt;code&gt;--theme&lt;/code&gt; option. We suggest you to edit your configuration file and set the theme by default. Example with &lt;code&gt;config.toml&lt;/code&gt; format.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;configuration&#34;&gt;Configuration&lt;/h1&gt;
+&lt;p&gt;This is an example article. It is intended to demonstrate some of the key styling elements for KnowledgeBase, the knowledge base static website sample by &lt;a href=&#34;https://christietempleton.pro&#34;&gt;Christie Templeton&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>
