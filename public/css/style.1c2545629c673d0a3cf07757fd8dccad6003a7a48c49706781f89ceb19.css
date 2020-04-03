@@ -1625,6 +1625,10 @@ div.notices {
   top: -2px;
 }
 
+div.notices {
+  margin: 2rem 0;
+  position: relative;
+}
 
 div.notices p {
   padding: 0px;

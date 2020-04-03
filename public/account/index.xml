@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>knowledgebase</title>
+    <title>My Account on Knowledgebase | by Christie Templeton</title>
     <link>/account/</link>
-    <description>Recent content on knowledgebase</description>
+    <description>Recent content in My Account on Knowledgebase | by Christie Templeton</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -11,12 +11,13 @@
     
     
     <item>
-      <title></title>
-      <link>/account/howtoaccount/</link>
+      <title>How to Create an Account</title>
+      <link>/account/dir1/howtoaccount/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/account/howtoaccount/</guid>
-      <description>how to create an account</description>
+      <guid>/account/dir1/howtoaccount/</guid>
+      <description>How to Create an Account This is an example article. It is intended to demonstrate some of the key styling elements for KnowledgeBase, the knowledge base static website sample by Christie Templeton.
+Why choose KnowledgeBase? KnowledgeBase is a Hugo theme customized by Christie Templeton, which is based off of the Porting Grav Learn theme and the Knowall Wordpress theme. This site serves as a help center for your product or service.</description>
     </item>
     
   </channel>

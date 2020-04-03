@@ -14,11 +14,53 @@
 	"content": "role=\u0026quot;alert\u0026quot;\u0026gt;HUGO v0.32 minimum required to use this themeThe following steps are here to help you initialize your new website. If you don’t know Hugo at all, we strongly suggest you to train by following this great documentation for beginners.\nInstallation We assume that all changes to Hugo content and customizations are going to be tracked by git (GitHub, Bitbucket etc.). Develop locally, build on remote system.\nBefore start real work:\n Initialize Hugo Install DocDock theme Configure DocDock and Hugo  Prepare empty Hugo site Create empty directory, which will be root of your Hugo project. Navigate there and let Hugo to create minimal required directory structure:\n$ hugo new site . AFTER that, initialize this as git directory where to track further changes\n$ git init Next, there are at least three ways to install DocDock (first recommended):\n As git submodule As git clone As direct copy (from ZIP)  Navigate to your themes folder in your Hugo site and use perform one of following scenarios.\n1. Install DocDock as git submodule DocDock will be added like a dependency repo to original project. When using CI tools like Netlify, Jenkins etc., submodule method is required, or you will get theme not found issues. Same applies when building site on remote server trough SSH.\nIf submodule is no-go, use 3rd option.\nOn your root of Hugo execute:\n$ git submodule add https://github.com/vjeantet/hugo-theme-docdock.git themes/docdock Next initialize submodule for parent git repo:\n$ git submodule init $ git submodule update Now you are ready to add content and customize looks. Do not change any file inside theme directory.\nIf you want to freeze changes to DocDock theme itself and use still submodules, fork private copy of DocDock and use that as submodule. When you are ready to update theme, just pull changes from origin to your private fork.\n2. Install DocDock simply as git clone This method results that files are checked out locally, but won\u0026rsquo;t be visible from parent git repo. Probably you will build site locally with hugo command and use result from public/ on your own.\n$ git clone https://github.com/vjeantet/hugo-theme-docdock.git themes/docdock 3. Install DocDock from ZIP All files from theme will be tracked inside parent repo, to update it, have to override files in theme. [\ndownload following zip](https://github.com/vjeantet/hugo-theme-docdock/archive/master.zip) and extract inside themes/.\nhttps://github.com/vjeantet/hugo-theme-docdock/archive/master.zip Name of theme in next step will be hugo-theme-docdock-master, can rename as you wish.\nConfiguration Follow instructions here\n"
 },
 {
+	"uri": "/account/",
+	"title": "My Account",
+	"tags": [],
+	"description": "",
+	"content": "How to manage your account and it\u0026rsquo;s features.\n"
+},
+{
 	"uri": "/getting-start/configuration/",
 	"title": "Configuration",
 	"tags": [],
 	"description": "",
 	"content": "When building the website, you can set a theme by using --theme option. We suggest you to edit your configuration file and set the theme by default. Example with config.toml format.\nImport sample config from sample site to Hugo root:\n$ cp themes/docdock/exampleSite/config.toml . Change following config.toml line as needed, depending on method above:\ntheme = \u0026quot;\u0026lt;hugo-theme-docdock-dir-name\u0026gt;\u0026quot; Comment out following line, so default themes/ will be used:\n# themesdir = \u0026quot;../..\u0026quot; Activate search If not already present, add the follow lines to the config.toml file.\n[outputs] home = [ \u0026#34;HTML\u0026#34;, \u0026#34;RSS\u0026#34;, \u0026#34;JSON\u0026#34;] LUNRJS search index file will be generated on content changes.\n(Bonus) Create empty file .gitkeep inside public/ and add following to .gitignore. This way it will keep repo smaller and won\u0026rsquo;t bring build result files and errors to remote checkout places:\n/public/* !/public/.gitkeep Preview site $ hugo server to browse site on http://localhost:1313\nYour website\u0026rsquo;s content Find out how to create and organize your content quickly and intuitively.\n"
+},
+{
+	"uri": "/account/dir1/howtoaccount/",
+	"title": "How to Create an Account",
+	"tags": [],
+	"description": "",
+	"content": "How to Create an Account This is an example article. It is intended to demonstrate some of the key styling elements for KnowledgeBase, the knowledge base static website sample by Christie Templeton.\nWhy choose KnowledgeBase? KnowledgeBase is a Hugo theme customized by Christie Templeton, which is based off of the Porting Grav Learn theme and the Knowall Wordpress theme. This site serves as a help center for your product or service. It organises your content into a knowledge base where customers, employees, and vendors can access support articles 24/7, be that documentation, FAQs, videos, LMS training, or tutorials. By implimenting a static html knowledgebase you can:\n Reduce time and money spent on repetitive support queries. Provide a support center for customers to learn and discover more about your products. Transform frustrated support emails into happy, loyal customers!  Packaged with useful shortcodes\nKnowledgeBase comes packaged with all the tools you need to set up and run a successful support center including useful shortcodes and styling elements to make your content stand out.\n KnowledgeBase is Beautiful Clean, focussed design ensures customers can access information quickly and effectively, your content is well presented and further support with a ticketing system or email form is always close at hand.\nWho is Christie Templeton? I am an experienced Technical Writer, UX Writer, Graphic Designer, and Web designer located in Austin, Texas.\nI have produced content for multiple well known clients. Check out my resume to learn more about some of the great companies that I have worked for, which has contributed to my experience that can benefit your organization!\nI create compelling and effective technical documentation, training materials including video learning and learning management system courseware, and I can also help you get your website up to speed via my UX Design, Graphic Design and Web Design skills.\nThe Knowledge Base and Technical Writing Specialist KnowledgeBase has been developed by Christie Templeton, a technical writer based in Austin Texas. Read more about her experience and how she can help your business manage and create documentation on a site like this by visiting her site https://ChristieTempelton.pro\nWhy Your Business Needs a Technical Writer More often than not, businesses and organizations believe that anyone can write.\nThe task of gathering technical information, writing, and editing is given to an engineer or technical employee who hasn’t acquired any professional writer’s training or even basic skills, such as how to follow a writing style guide, or how to select and use the appropriate software for the job. This results in documentation that is hard to comprehend, full of errors and misspellings, and that doesn’t follow a common format which lends to it looking less than professional.\nHiring a Professional Technical Writer Solves this Problem I help clarify complicated concepts through translating business and technical jargon into simpler language, helping your organization meet the needs of your target audience. I consider content from the user’s perspective and know how to connect to your audience through professional technical documentation that is concise, impartial, and states the facts clearly. I possess the special talent of understanding complex content from both the viewpoint of industry-experts and the average consumer.\nMy primary objective beyond gathering information and understanding your process is to provide immaculate documentation that not only makes your organization meet its goals better, but also makes your organization look as professional as possible.\nBut Don’t Think Traditional, Bland and Boring Technical Writing! Gone are the days of pages of static text with long paragraphs that make your head swim after just a few minutes of reading it. Today’s Technical Writing demands modern formatting, styling, and supportive media to be competitive and effective.\nI also have complementary skills that will enhance any kind of documentation I provide to you. These skills include web design, graphic design, motion graphics, video production, and other related skills that allow me to take your documentation to the next level. From the document layout and font to the appropriate size for charts, my job is to make your content look and read professional.\nAnd There’s More to Technical Writing than Just Writing Before the writing can even begin, the information to be published must be obtained. Technical Writing relies heavily on the ability to perform research to find the right stakeholders, subject matter experts, as well as internal and external resources. In a busy organization, it can be challenging to extract the information from employees such as engineers and managers. Not all employees will have the skills to take initiative to do what it takes to coordinate the extraction of the data from all resources.\nThough I am a Technical Writer, I have acquired Project Management skills that allow me to create a plan to coordinate with resources, especially those who are hard to pin down, and to find workarounds and other solutions to help extract all of the data you want to publish.\nYour Documentation is One Element of Many that Complete Your Company Brand It is just as much part of your product as its other features and should complement it accordingly. Colors, styles, and logos can go a long way to making the documentation look like your documentation.\nExample Content Single Image Inline-style: Reference-style: Styling Included This text is in bold\nThis text is italicized\nThis text has strikethrough\nOrdered list:  item 1 item 2 item 3  Unordered list:  item 1 item 2 item 3  Notices Let your special instruction stand out from the rest of the text.\n Let your special instruction stand out from the rest of the text.\n Let your special instruction stand out from the rest of the text.\n Let your special instruction stand out from the rest of the text.\n Code  This is a sample code box. You can fill it with html, css, markdown, and any other code\r "
+},
+{
+	"uri": "/billing/",
+	"title": "Billing &amp; Payments",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/mobileapp/",
+	"title": "Mobile App",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/legal/",
+	"title": "Copyright &amp; Legal",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/developers/",
+	"title": "Developers",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "/",
@@ -28,18 +70,11 @@
 	"content": ""
 },
 {
-	"uri": "/account/",
+	"uri": "/_footer/",
 	"title": "",
 	"tags": [],
 	"description": "",
-	"content": "howtoaccount.html\n"
-},
-{
-	"uri": "/account/howtoaccount/",
-	"title": "",
-	"tags": [],
-	"description": "",
-	"content": "how to create an account"
+	"content": "© 2020 KnowledgeBase by Christie Templeton"
 },
 {
 	"uri": "/categories/",

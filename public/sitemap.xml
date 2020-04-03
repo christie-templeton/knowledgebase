@@ -11,7 +11,31 @@
   </url>
   
   <url>
+    <loc>/account/</loc>
+  </url>
+  
+  <url>
     <loc>/getting-start/configuration/</loc>
+  </url>
+  
+  <url>
+    <loc>/account/dir1/howtoaccount/</loc>
+  </url>
+  
+  <url>
+    <loc>/billing/</loc>
+  </url>
+  
+  <url>
+    <loc>/mobileapp/</loc>
+  </url>
+  
+  <url>
+    <loc>/legal/</loc>
+  </url>
+  
+  <url>
+    <loc>/developers/</loc>
   </url>
   
   <url>
@@ -20,12 +44,7 @@
   </url>
   
   <url>
-    <loc>/account/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/account/howtoaccount/</loc>
+    <loc>/_footer/</loc>
     <priority>0</priority>
   </url>
   

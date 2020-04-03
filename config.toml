@@ -2,7 +2,7 @@ baseURL = "/"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "knowledgebase"
+title = "Knowledgebase | by Christie Templeton"
 theme = "docdock"
 #themesdir = "../.."
 pygmentsCodeFences = true

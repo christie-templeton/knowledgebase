@@ -2,6 +2,10 @@
     "favorites.resources": [
         "static\\index.html",
         "themes\\docdock\\layouts\\index.html",
-        "themes\\docdock\\static\\theme-flex\\style.css"
+        "themes\\docdock\\static\\theme-flex\\style.css",
+        "static\\css\\style-1.6.0.css",
+        "themes\\docdock\\layouts\\partials\\flex\\body-beforecontent.html",
+        "themes\\docdock\\layouts\\partials\\flex\\body-aftercontent.html",
+        "themes\\docdock\\exampleSite\\content\\shortcodes"
     ]
 }

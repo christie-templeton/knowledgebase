@@ -1549,7 +1549,7 @@ div.notices p:first-child:before {
   top: -27px;
   color: #fff;
   font-family: FontAwesome;
-  content: '';
+  content: '\f06a';
   left: 10px; }
 
 a.close.button.secondary.hollow:hover {

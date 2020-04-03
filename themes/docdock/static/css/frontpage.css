@@ -86,3 +86,30 @@
     background-color: #f1f1f1;
   }
 
+  footer {
+    color: #fff;
+    font-size: .95rem;
+    margin: 0 1rem 0 0rem;
+    padding: 1rem 4rem; }
+    footer p {
+      margin: 0px; }
+    footer .footline {
+      /*border-top: 1px solid #e6e6e6;*/
+      margin: 0rem;
+      padding: 0;
+      font-size: smaller;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap; }
+      footer .footline .tags {
+        order: 1; }
+      footer .footline .tags a:before {
+        content: "#"; }
+      footer .footline .author {
+        order: 3; }
+      footer .footline .github-link {
+        order: 4; }
+      footer .footline .date {
+        order: 3; }

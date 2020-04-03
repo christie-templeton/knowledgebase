@@ -21,12 +21,54 @@
 
     </nav>-->
 
+					
+					<nav class="nav-header" itemscope="" itemtype="https://schema.org/SiteNavigationElement">
+						<button id="ht-navtoggle" class="nav-header__mtoggle">
+							<span>Menu</span>
+						</button>
+						<ul id="menu-header-menu" class="nav-header__menuwrapper" style="top: 103px;">
+							<li id="menu-item-416" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-416">
+								<a href="#">Link</a>
+								<ul class="sub-menu">
+									<li id="menu-item-141" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141">
+										<a href="#">Instant Answers</a>
+									</li>
+									<li id="menu-item-142" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-142">
+										<a href="#">Customizable</a>
+									</li>
+									<li id="menu-item-143" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-143">
+										<a href="#">Responsive</a>
+									</li>
+									<li id="menu-item-311" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-311">
+										<a href="#">Analytics Dashboard</a>
+									</li>
+									<li id="menu-item-312" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-312">
+										<a href="#">Article Feedback</a>
+									</li>
+									<li id="menu-item-313" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-313">
+										<a href="#">Search Analytics</a>
+									</li>
+								</ul>
+							</li>
+							<li id="menu-item-135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-135">
+								<a href="/shortcodes/">Shortcodes</a>
+							</li>
+							<li id="menu-item-329" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-329">
+								<a href="/faq/">FAQ</a>
+							</li>
+							<li id="menu-item-138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138">
+								<a target="_blank" rel="noopener noreferrer" href="https://ChristieTempleton.pro/contact">Hire Christie Templeton</a>
+							</li>
+						</ul>
+					</nav>
+
+    
    
     </form>
     <div class="subheader">
 
       <form class="hkb-site-search search" method="get" action="http://knowledgebase.christietempleton.pro/">
-      <!--  <label class="hkb-screen-reader-text search_label" for="search-by">Search For</label> -->
+      <label class="hkb-screen-reader-text search_label" for="search-by"></label> 
         <input class="hkb-site-search__field search_field" type="text" value="" placeholder="Search the knowledge base..." name="s" autocomplete="off" data-search-input id="search-by">
         <div class="search_results"></div>
         <img class="hkb-site-search__loader lazyloading" src="/loading.svg" alt="Searching..." data-was-processed="true">
@@ -37,6 +79,7 @@
         </button>-->
       </form>
 
+     
       
     </div>
 
@@ -67,11 +110,29 @@
     
     {{- partial "language-selector.html" . }}
     <section>
-        {{- partial "menu-footer.html" . }}
+
+         {{- partial "menu-footer.html" . }}
     </section>
   </aside>
 
+
+
   <section class="page">
+
+    <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+      <span id="sidebar-toggle-span">
+        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+          <i class="fa fa-bars"></i>
+        </a>
+      </span>
+      <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+      <span class="links">
+      {{ template "breadcrumb" dict "page" . "value" .Title }}   
+      </span>
+  </div>
+  
+
+
     
     <div class="nav-select">
       <center>Navigation : 
@@ -112,4 +173,5 @@
     {{- end}}
     -->
 
+    <!---->
     {{if not .IsHome}}<h1>{{.Title}}</h1>{{end}}

@@ -26,13 +26,13 @@ other = "of"
 other = "Attachments"
 
 [title-404]
-other = "Error"
+other = ""
 
 [message-404]
-other = "Woops. Looks like this page doesn't exist."
+other = ""
 
 [Go-to-homepage]
-other = "Go to homepage"
+other = "Go Home"
 
 #[Edit-this-page]
 #other = "Improve this page"
