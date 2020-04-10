@@ -4,7 +4,6 @@ description = ""
 weight = 3
 +++
 
-# Installation
 
 This is an example article. It is intended to demonstrate some of the key styling elements for KnowledgeBase, the knowledge base static website sample by [Christie Templeton](https://christietempleton.pro).
 
@@ -37,7 +36,7 @@ I create compelling and effective technical documentation, training materials in
     
 ### The Knowledge Base and Technical Writing Specialist
     
-KnowledgeBase has been developed by Christie Templeton, a technical writer based in Austin Texas. Read more about her experience and how she can help your business manage and create documentation on a site like this by visiting her site [https://ChristieTempelton.pro](https://ChristieTempelton.pro)
+KnowledgeBase has been developed by Christie Templeton, a technical writer based in Austin Texas. Read more about her experience and how she can help your business manage and create documentation on a site like this by visiting her site [https://ChristieTempleton.pro](https://ChristieTempleton.pro)
 
 # Why Your Business Needs a Technical Writer
 More often than not, businesses and organizations believe that anyone can write.

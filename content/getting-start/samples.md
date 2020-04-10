@@ -3,7 +3,7 @@ title = "Sample Documentation"
 description = ""
 weight = 2
 +++
-# Sample Documentation
+
 
 If you are looking for sample documents from Christie Templeton's portfolio, then you've found the right page! 
 
