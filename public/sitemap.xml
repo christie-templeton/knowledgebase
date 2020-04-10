@@ -35,10 +35,6 @@
   </url>
   
   <url>
-    <loc>/account/2_step_verification/</loc>
-  </url>
-  
-  <url>
     <loc>/billing/2_step_verification/</loc>
   </url>
   
@@ -144,6 +140,10 @@
   
   <url>
     <loc>/mobileapp/sample_6/</loc>
+  </url>
+  
+  <url>
+    <loc>/account/2_step_verification/</loc>
   </url>
   
   <url>
